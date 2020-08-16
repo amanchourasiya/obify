@@ -20,3 +20,5 @@ setup(
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: GNU GPL-v3',   # Again, pick a license
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
+  ],
+)
