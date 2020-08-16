@@ -1,4 +1,4 @@
-rom distutils.core import setup
+from distutils.core import setup
 setup(
   name = 'obify',         # How you named your package folder (MyLib)
   packages = ['obify'],   # Chose the same as "name"
