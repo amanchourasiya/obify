@@ -1,16 +1,19 @@
-from distutils.core import setup
+#from distutils.core import setup
+from setuptools import setup
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = str(f.read())
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-    
 setup(
   name = 'obify',         # How you named your package folder (MyLib)
   packages = ['obify'],   # Chose the same as "name"
   version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='GNU GPL-v3',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This library provides a set of data structures that will work on python objects similar to collections framework in java',   # Give a short description about your library
+  description_content_type = "text/plain",
   long_description = long_description,
-  long_description_content_type="text/markdown",
+  long_description_content_type = "text/markdown",
   author = 'Aman Chourasiya',                   # Type in your name
   author_email = 'aman@amanchourasiya.com',      # Type in your E-Mail
   url = 'https://github.com/amanchourasiya/obify',   # Provide either the link to your github or to your website
