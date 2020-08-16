@@ -1,4 +1,8 @@
 from distutils.core import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
 setup(
   name = 'obify',         # How you named your package folder (MyLib)
   packages = ['obify'],   # Chose the same as "name"
@@ -10,7 +14,7 @@ setup(
   author = 'Aman Chourasiya',                   # Type in your name
   author_email = 'aman@amanchourasiya.com',      # Type in your E-Mail
   url = 'https://github.com/amanchourasiya/obify',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/amanchourasiya/obify/archive/v_001.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/amanchourasiya/obify/archive/v_002.tar.gz',    # I explain this later on
   keywords = ['Collections', 'Objects', 'Data structures'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           #'validators',
