@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'obify',         # How you named your package folder (MyLib)
   packages = ['obify'],   # Chose the same as "name"
-  version = '0.0.1',      # Start with a small number and increase it with every change you make
+  version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='GNU GPL-v3',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This library provides a set of data structures that will work on python objects similar to collections framework in java',   # Give a short description about your library
   long_description = long_description,

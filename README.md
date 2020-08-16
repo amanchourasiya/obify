@@ -1,7 +1,7 @@
 # obify
 A python library that will provide all algorithms working on object 
 
-###This library can be used following way
+### This library can be used following way
 
 ```python
 from obify import heap
