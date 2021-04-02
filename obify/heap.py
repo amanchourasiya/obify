@@ -8,13 +8,13 @@ class MinHeap():
         self.arr = []
 
     def insert(self, element):
-        logger.debug('inserting' + str(element.data))
+        logger.debug('inserting new node')
         self.size += 1
         self.arr.append(element)
         self.swim(self.size -1 )
 
     def remove(self):
-        logger.debug('Deleting' + str(self.arr[0].data))
+        logger.debug('Deleting node')
         self.arr[0] = self.arr[-1]
         del self.arr[-1]
         self.size -= 1
@@ -61,7 +61,7 @@ class MinHeap():
         return left
 
     def swap(self, index1, index2):
-        logger.debug('Swapping' + str(self.arr[index1].data) + str(self.arr[index2].data))
+        logger.debug('Swapping node')
         self.arr[index1], self.arr[index2] = self.arr[index2], self.arr[index1]
 
     def getall(self):
