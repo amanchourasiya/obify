@@ -2,8 +2,8 @@
 
 This is python library that provides functionalities similar to collections framework in Java.
 A counter to the utility of this library can be made that python already has collections module that pretty much handles and provides all the functionality similar to 
-java collections but python in build collections is missing some key fuctionalities 
-e.g. Java provides some libraries such as heap or Priority Queue that can work in objects but there is no such think in python , we only have heap or queue that only work on 
+java collections but python in built collections is missing some key fuctionalities 
+e.g. Java provides some libraries such as heap or Priority Queue that can work on objects but there is no such thing in python , we only have heap or queue that only work on 
 some primitive data types that can be comapred by any arithmatic operator.
 
 So this library provides the feature to use these data structures such as Heap or Priority Queue with our own objects.
